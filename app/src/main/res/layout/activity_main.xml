@@ -58,4 +58,22 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@+id/textView2"
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view2">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text="Androidはスマートフォン向けのプラットフォームです。\n現在、世界ではナンバーワンのシェアを誇っています。\n日本では「ドロイド君」と呼ばれている彼は、正式名称をbugdroid（バグドロイド）と言います。ドロイド君の方が可愛いですね（笑）\nそんな彼も12歳になりました。今後とも宜しくお願いします。"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
+    </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
